@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body {
+  padding: 45px 25px;
+  font: 13px 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background: #1192d3;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #D7D7D7;
+    letter-spacing: 2.5px;
+}
+
+#date, #clock {
+  letter-spacing: 1px;
+}
+
+h1 { font-size: 44px; }
+h2 { font-size: 37px; }
+h3 { font-size: 27px; }
+h4 { font-size: 23px; }
+h5 { font-size: 17px; }
+h6 { font-size: 14px; }
+
+img {
+  height: auto;
+  margin: 0 auto;
+  display: table;
+}
+
+#weatherContainer {
+  margin: 0 auto;
+  display: table;
+}
+
+@media only screen and (max-width: 768px) {
+    #weather {
+    height: 50% !important;
+    width: 50% !important;
+    }
+    #clock {
+    font-size: 6em !important;
+    }
+    #clock { font-size: 4em !important; }
+    #date { font-size: 1.1em !important; }
+    #weather p { display: block; }
+}
+
